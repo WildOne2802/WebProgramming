@@ -1,15 +1,309 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <title>Timmy Oshnokov</title>
     <link rel="stylesheet" href="PersonalPageCSS.css">
+    <link rel="stylesheet" href="Diagrams.css">
+    <link rel="icon" href="./Images/switzerland.png">
+    <meta name="keywords" content="Ошноков, Тимур, программирование, ИТМО, ФИТИП">
 </head>
+
 <body>
-<header>
-    <img src ="https://vk.com/photo137836105_456241063?all=1" alt="Timur Oshnokov">
-    Timmy Turner</header>
-<main> </main>
-<footer>Copyright all rights reserved</footer>
+
+<header class="header">
+    <div class="headerLinksBox">
+        <nav>
+            <ul class="headerItems">
+                <li>
+                    <a class="headerLink" href="#home">
+                        <img src="./Images/switzerland.png" alt="home" class="logo"/>
+                    </a>
+                </li>
+                <li>
+                    <a class="headerLink" href="#aboutMe">About me</a>
+                </li>
+                <li>
+                    <a class="headerLink" href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a class="headerLink" href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a class="headerLink" href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section class="intro">
+        <span id="home"></span>
+        <div class="personalBox">
+            <img src="./Images/SelfPhoto.jpg" alt="Timur Oshnokov" class="selfImage">
+            <div class="nameBox">
+                <h1 class="textWhite">Timur Oshnokov</h1>
+                <h3 class="textWhite">Junior Mobile Developer (iOS/Android)</h3>
+                <h5 class="textWhite">Saint-Petersburg, Russia</h5>
+                <br>
+                <h5 class="textWhite">Dictum est factum.<br>-Terence</h5>
+            </div>
+        </div>
+        <svg class="triangle" viewBox="0 0 200 15">
+            <polygon points="0,15 200,0 0,0" fill="#e83b24"></polygon>
+        </svg>
+    </section>
+
+    <section class="aboutMeBox">
+        <span id="aboutMe"></span>
+        <div class="sectionName">
+            <h1 class="textBlack">About me</h1>
+        </div>
+
+
+        <div class="aboutMeSlides">
+            <div class="aboutMeSingleSlide">
+                <p class="aboutMeText">Hey there, I am Timmy!<br>IT Developer from Saint-Petersburg, Russia.<br>I am 19
+                    years
+                    old and full of energy to create some amazing projects. </p>
+            </div>
+            <div class="aboutMeSingleSlide">
+                <p class="aboutMeText"> If you have got some interesting ideas,<br>text me.</p>
+            </div>
+            <div class="aboutMeSingleSlide">
+                <p class="aboutMeText"> I am into implementing some breathtaking projects. </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <span id="skills"></span>
+        <div class="skillsBox">
+            <h1 class="sectionName">Hard skills</h1>
+            <div>
+                <h3 class="sectionName">Mobile development skills</h3>
+                <div class="skillsCharts">
+                    <section>
+                        <h3 class="textBlack">Swift</h3>
+                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                    cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                            <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                    stroke-dasharray="50,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                    cy="16.91549431" r="15.91549431"/>
+                            <g class="circle-chart__info">
+                                <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                      alignment-baseline="central" text-anchor="middle" font-size="6">1.5 year
+                                </text>
+                            </g>
+                        </svg>
+                    </section>
+
+                    <section>
+                        <h3 class="textBlack">React Native</h3>
+                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                    cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                            <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                    stroke-dasharray="33.33,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                    cy="16.91549431" r="15.91549431"/>
+                            <g class="circle-chart__info">
+                                <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                      alignment-baseline="central" text-anchor="middle" font-size="6">1 year
+                                </text>
+                            </g>
+                        </svg>
+                    </section>
+
+                    <section>
+                        <h3 class="textBlack">Kotlin</h3>
+                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                    cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                            <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                    stroke-dasharray="16.66,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                    cy="16.91549431" r="15.91549431"/>
+                            <g class="circle-chart__info">
+                                <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                      alignment-baseline="central" text-anchor="middle" font-size="6">6 months
+                                </text>
+                            </g>
+                        </svg>
+                    </section>
+                </div>
+                <h3 class="sectionName">Software development skills</h3>
+                <div class="skillsCharts">
+                    <section>
+                        <h3 class="textBlack">Java</h3>
+                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                    cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                            <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                    stroke-dasharray="83.33,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                    cy="16.91549431" r="15.91549431"/>
+                            <g class="circle-chart__info">
+                                <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                      alignment-baseline="central" text-anchor="middle" font-size="6">2.5 years
+                                </text>
+                            </g>
+                        </svg>
+                    </section>
+                    <section>
+                        <h3 class="textBlack">C#</h3>
+                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                    cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                            <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                    stroke-dasharray="33.33,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                    cy="16.91549431" r="15.91549431"/>
+                            <g class="circle-chart__info">
+                                <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                      alignment-baseline="central" text-anchor="middle" font-size="6">1 year
+                                </text>
+                            </g>
+                        </svg>
+                    </section>
+                    <section>
+                        <h3 class="textBlack">C++</h3>
+                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                    cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                            <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                    stroke-dasharray="100,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                    cy="16.91549431" r="15.91549431"/>
+                            <g class="circle-chart__info">
+                                <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                      alignment-baseline="central" text-anchor="middle" font-size="6">3 years
+                                </text>
+                            </g>
+                        </svg>
+                    </section>
+                    <section>
+                        <h3 class="textBlack">SQL</h3>
+                        <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                    cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                            <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                    stroke-dasharray="50,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                    cy="16.91549431" r="15.91549431"/>
+                            <g class="circle-chart__info">
+                                <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                      alignment-baseline="central" text-anchor="middle" font-size="6">1.5 year
+                                </text>
+                            </g>
+                        </svg>
+                    </section>
+                </div>
+            </div>
+            <h1 class="sectionName">Soft skills</h1>
+            <div class="skillsCharts">
+
+                <section>
+                    <h3 class="textBlack">English</h3>
+                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                        <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                stroke-dasharray="100,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                cy="16.91549431" r="15.91549431"/>
+                        <g class="circle-chart__info">
+                            <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                  alignment-baseline="central" text-anchor="middle" font-size="8">C2
+                            </text>
+                        </g>
+                    </svg>
+                </section>
+
+                <section>
+                    <h3 class="textBlack">Russian</h3>
+                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                        <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                stroke-dasharray="100,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                cy="16.91549431" r="15.91549431"/>
+                        <g class="circle-chart__info">
+                            <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                  alignment-baseline="central" text-anchor="middle" font-size="6">Native
+                            </text>
+                        </g>
+                    </svg>
+                </section>
+                <section>
+                    <h3 class="textBlack">Circassian</h3>
+                    <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <circle class="circle-chart__background" stroke="#efefef" stroke-width="2" fill="none"
+                                cx="16.91549431" cy="16.91549431" r="15.91549431"/>
+                        <circle class="circle-chart__circle" stroke="#e83b24" stroke-width="2"
+                                stroke-dasharray="100,100" stroke-linecap="round" fill="none" cx="16.91549431"
+                                cy="16.91549431" r="15.91549431"/>
+                        <g class="circle-chart__info">
+                            <text class="circle-chart__innerText" x="16.91549431" y="16.91549431"
+                                  alignment-baseline="central" text-anchor="middle" font-size="6">Native
+                            </text>
+                        </g>
+                    </svg>
+                </section>
+            </div>
+        </div>
+        <svg class="triangle" viewBox="0 0 200 15">
+            <polygon points="0,15 200,0 0,0" fill="#ffffff"></polygon>
+        </svg>
+    </section>
+
+    <section>
+        <span id="projects"></span>
+        <h1 class="sectionName">Projects</h1>
+        <div class="projectsBox">
+            <img src="./Images/Logos/Settings2.png" alt="settings" class="logo"/>
+            <text class="textBlack">Section is in development</text>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <section>
+        <span id="contacts"></span>
+        <div class="bottomBox">
+            <nav>
+                <ul class="bottomLinks">
+                    <li>
+                        <a class="bottomLink" href="https://www.vk.com/napenshe" target="_blank">
+                            <img src="./Images/Logos/VK_Black&White_Logo_transparent.png" class="logo" alt="vk"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bottomLink" href="https://www.t.me/napenshe" target="_blank">
+                            <img src="./Images/Logos/Telegram_X_2019_Logo.svg" class="logo" alt="telegram"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="bottomLink" href="https://www.github.com/WildOne2802" target="_blank">
+                            <img src="./Images/Logos/GitHub-Mark-120px-plus.png" class="logo" alt="github"/>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer">
+            <h6 class="textBlack">email: timur.oshnokov@gmail.com</h6>
+        </div>
+    </section>
+</footer>
+
 </body>
+
 </html>

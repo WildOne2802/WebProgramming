@@ -1,0 +1,195 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    height: 70px;
+    z-index: 10;
+
+}
+
+.headerLinksBox {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 40px;
+}
+
+.headerItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-family: "Helvetica Neue";
+
+}
+
+.headerLink {
+    text-decoration: none;
+    color: #1c1c1c;
+    width: 100px;
+}
+
+/* Personal Box*/
+
+.intro {
+    left: 0;
+    margin-top: 70px;
+}
+
+.personalBox {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+    background-color: #e83b24;
+    height: 550px;
+}
+
+.selfImage {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.nameBox {
+    flex-direction: column;
+}
+
+/* ABOUT ME*/
+
+.aboutMeBox {
+    height: 500px;
+}
+
+.aboutMeText {
+    font-family: "Helvetica Neue";
+    color: #1c1c1c;
+    text-align: center;
+}
+
+.aboutMeSlides {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.aboutMeSingleSlide {
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 250px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* SKILLS*/
+
+.skillsBox {
+    background-color: #ffffff;
+}
+
+.skillsCharts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.hardSkillsBox {
+
+}
+
+/*PROJECTS*/
+
+.projectsBox {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* CONTACTS*/
+
+.bottomLinks {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    display: flex;
+    margin-right: 42px;
+}
+
+.bottomLink {
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    flex-direction: column;
+    background-color: #FDF3F2;
+    width: 100vw;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.triangle {
+    left: 0;
+}
+
+.triangleUpsideDown {
+    left: 0;
+    background-color: #e83b24;
+}
+
+.textWhite {
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+}
+
+.textBlack {
+    color: #1c1c1c;
+    font-family: "Helvetica Neue";
+}
+
+.sectionName {
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #1c1c1c;
+    font-family: "Helvetica Neue";
+}
+
+#skills {
+    position: relative;
+    top: -70px;
+}
+
+#aboutMe {
+    position: relative;
+    top: -70px;
+}
+
+#contacts {
+    position: relative;
+    top: -70px;
+}
+
+#home {
+    position: relative;
+    top: -70px;
+}
+
+#projects {
+    position: relative;
+    top: -70px;
+}
