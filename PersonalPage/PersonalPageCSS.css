@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
     list-style-type: none;
-    font-family: "Helvetica Neue";
+    font-family: "Verdana";
 
 }
 
@@ -61,10 +61,11 @@
 
 .aboutMeBox {
     height: 500px;
+    padding-top: 20px;
 }
 
 .aboutMeText {
-    font-family: "Helvetica Neue";
+    font-family: "Verdana";
     color: #1c1c1c;
     text-align: center;
 }
@@ -173,19 +174,19 @@ body {
 
 .textWhite {
     color: #ffffff;
-    font-family: "Helvetica Neue";
+    font-family: "Verdana";
 }
 
 .textBlack {
     color: #1c1c1c;
-    font-family: "Helvetica Neue";
+    font-family: "Verdana";
 }
 
 .sectionName {
     margin-left: 20px;
     margin-top: 20px;
     color: #1c1c1c;
-    font-family: "Helvetica Neue";
+    font-family: "Verdana";
 }
 
 #skills {
@@ -218,4 +219,51 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.projectsSection {
+    padding-top: 20px;
+}
+
+.skillsSection {
+    padding-top: 20px;
+}
+
+/*Float example */
+
+.floatExample {
+    height: 500px;
+}
+
+.floatExampleTextBox {
+    padding: 20px;
+    font-family: "Verdana";
+    font-size: 1.5em;
+}
+
+.diceLeftExample {
+    height: 40px;
+    width: 40px;
+    float: left;
+    margin: 20px;
+}
+
+.diceRightExample {
+    height: 40px;
+    width: 40px;
+    float: right;
+    margin: 20px;
+}
+
+.leafImage{
+    width: 40px;
+    height: auto;
+}
+.leafContainerLeft {
+    float: left;
+    margin: 20px;
+}
+.leafContainerRight{
+    float: right;
+    margin: 20px;
 }

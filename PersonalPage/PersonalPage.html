@@ -78,7 +78,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="skillsSection">
         <span id="skills"></span>
         <div class="skillsBox">
             <h1 class="sectionName">Hard skills</h1>
@@ -223,7 +223,6 @@
                         </g>
                     </svg>
                 </section>
-
                 <section>
                     <h3 class="textBlack">Russian</h3>
                     <svg class="circle-chart" viewbox="0 0 33.83098862 33.83098862" width="200" height="200"
@@ -263,7 +262,7 @@
         </svg>
     </section>
 
-    <section>
+    <section class="projectsSection">
         <span id="projects"></span>
         <h1 class="sectionName">Projects</h1>
         <!--        <div class="projectsBox">-->
@@ -283,134 +282,162 @@
         </div>
     </section>
 
-    <!--    <section class="extra">-->
-    <!--        <p>-->
-    <!--        <pre>         ^-->
-    <!--       ,' \-->
-    <!--       L""/-->
-    <!--       ` |-->
-    <!--       J |-->
-    <!--       J L-->
-    <!--       | | .  ,-->
-    <!--       | |.`v_L.'-->
-    <!--      // ,>-(-\'_-->
-    <!--      \`' \ - /-.-->
-    <!--      /   /`""|-->
-    <!--       ),'    `- -->
-    <!--      (    ,-'  \-->
-    <!--       ) ,' ,'   h-->
-    <!--      / /  /     `)&#45;&#45;..-->
-    <!--      \/  /       \  <)-->
-    <!--       <        ,  L<'-->
-    <!--       F/     _/  ,'-->
-    <!--       L   ,-'     \-->
-    <!--       |         ___L-->
-    <!--      /         (  F-->
-    <!--     J      ___,'  L-->
-    <!--     |    ,'       |-->
-    <!--     F  ,'         |-->
-    <!--    (_,&#45;&#45;..__  mt-2|_-->
-    <!--   ,'        `"`&#45;&#45;.._\-->
-    <!-- ,' /                 \-->
-    <!--/                     (_-->
-    <!--        </pre>-->
-    <!--        </p>-->
-    <!--    </section>-->
+    <!--        <section class="extra">-->
+    <!--            <p>-->
+    <!--            <pre>         ^-->
+    <!--           ,' \-->
+    <!--           L""/-->
+    <!--           ` |-->
+    <!--           J |-->
+    <!--           J L-->
+    <!--           | | .  ,-->
+    <!--           | |.`v_L.'-->
+    <!--          // ,>-(-\'_-->
+    <!--          \`' \ - /-.-->
+    <!--          /   /`""|-->
+    <!--           ),'    `- -->
+    <!--          (    ,-'  \-->
+    <!--           ) ,' ,'   h-->
+    <!--          / /  /     `)&#45;&#45;..-->
+    <!--          \/  /       \  <)-->
+    <!--           <        ,  L<'-->
+    <!--           F/     _/  ,'-->
+    <!--           L   ,-'     \-->
+    <!--           |         ___L-->
+    <!--          /         (  F-->
+    <!--         J      ___,'  L-->
+    <!--         |    ,'       |-->
+    <!--         F  ,'         |-->
+    <!--        (_,&#45;&#45;..__  mt-2|_-->
+    <!--       ,'        `"`&#45;&#45;.._\-->
+    <!--     ,' /                 \-->
+    <!--    /                     (_-->
+    <!--            </pre>-->
+    <!--            </p>-->
+    <!--        </section>-->
 
-    <!--    <section class="extra">-->
-    <!--        <p>-->
-    <!--            <pre>-->
-    <!--                <code>-->
-    <!--        class MergeSort {-->
-    <!--    // Merges two subarrays of arr[].-->
-    <!--    // First subarray is arr[l..m]-->
-    <!--    // Second subarray is arr[m+1..r]-->
-    <!--    void merge(int arr[], int l, int m, int r) {-->
+    <!--        <section class="extra">-->
+    <!--            <p>-->
+    <!--                <pre>-->
+    <!--                    <code>-->
+    <!--            class MergeSort {-->
+    <!--        // Merges two subarrays of arr[].-->
+    <!--        // First subarray is arr[l..m]-->
+    <!--        // Second subarray is arr[m+1..r]-->
+    <!--        void merge(int arr[], int l, int m, int r) {-->
 
-    <!--        int n1 = m - l + 1;-->
-    <!--        int n2 = r - m;-->
+    <!--            int n1 = m - l + 1;-->
+    <!--            int n2 = r - m;-->
 
-    <!--        int L[] = new int[n1];-->
-    <!--        int R[] = new int[n2];-->
+    <!--            int L[] = new int[n1];-->
+    <!--            int R[] = new int[n2];-->
 
-    <!--        for (int i = 0; i < n1; ++i)-->
-    <!--            L[i] = arr[l + i];-->
-    <!--        for (int j = 0; j < n2; ++j)-->
-    <!--            R[j] = arr[m + 1 + j];-->
+    <!--            for (int i = 0; i < n1; ++i)-->
+    <!--                L[i] = arr[l + i];-->
+    <!--            for (int j = 0; j < n2; ++j)-->
+    <!--                R[j] = arr[m + 1 + j];-->
 
 
-    <!--        int i = 0, j = 0;-->
+    <!--            int i = 0, j = 0;-->
 
-    <!--        int k = l;-->
-    <!--        while (i < n1 && j < n2) {-->
-    <!--            if (L[i] <= R[j]) {-->
+    <!--            int k = l;-->
+    <!--            while (i < n1 && j < n2) {-->
+    <!--                if (L[i] <= R[j]) {-->
+    <!--                    arr[k] = L[i];-->
+    <!--                    i++;-->
+    <!--                } else {-->
+    <!--                    arr[k] = R[j];-->
+    <!--                    j++;-->
+    <!--                }-->
+    <!--                k++;-->
+    <!--            }-->
+
+    <!--            while (i < n1) {-->
     <!--                arr[k] = L[i];-->
     <!--                i++;-->
-    <!--            } else {-->
+    <!--                k++;-->
+    <!--            }-->
+
+    <!--            while (j < n2) {-->
     <!--                arr[k] = R[j];-->
     <!--                j++;-->
+    <!--                k++;-->
     <!--            }-->
-    <!--            k++;-->
     <!--        }-->
 
-    <!--        while (i < n1) {-->
-    <!--            arr[k] = L[i];-->
-    <!--            i++;-->
-    <!--            k++;-->
+    <!--        void sort(int arr[], int l, int r) {-->
+    <!--            if (l < r) {-->
+    <!--                // Find the middle point-->
+    <!--                int m = (l + r) / 2;-->
+
+    <!--                // Sort first and second halves-->
+    <!--                sort(arr, l, m);-->
+    <!--                sort(arr, m + 1, r);-->
+
+    <!--                // Merge the sorted halves-->
+    <!--                merge(arr, l, m, r);-->
+    <!--            }-->
     <!--        }-->
 
-    <!--        while (j < n2) {-->
-    <!--            arr[k] = R[j];-->
-    <!--            j++;-->
-    <!--            k++;-->
+    <!--        static void printArray(int arr[]) {-->
+    <!--            int n = arr.length;-->
+    <!--            for (int i = 0; i < n; ++i)-->
+    <!--                System.out.print(arr[i] + " ");-->
+    <!--            System.out.println();-->
+    <!--        }-->
+
+    <!--        public static void main(String args[]) {-->
+    <!--            int arr[] = {1, 29, 43, 23, 543, 56, 32, 323, 654, 0, 4, 2, 56, 21};-->
+
+    <!--            System.out.println("Given Array");-->
+    <!--            printArray(arr);-->
+
+    <!--            MergeSort ob = new MergeSort();-->
+    <!--            ob.sort(arr, 0, arr.length - 1);-->
+
+    <!--            System.out.println("\nSorted array");-->
+    <!--            printArray(arr);-->
     <!--        }-->
     <!--    }-->
-
-    <!--    void sort(int arr[], int l, int r) {-->
-    <!--        if (l < r) {-->
-    <!--            // Find the middle point-->
-    <!--            int m = (l + r) / 2;-->
-
-    <!--            // Sort first and second halves-->
-    <!--            sort(arr, l, m);-->
-    <!--            sort(arr, m + 1, r);-->
-
-    <!--            // Merge the sorted halves-->
-    <!--            merge(arr, l, m, r);-->
-    <!--        }-->
-    <!--    }-->
-
-    <!--    static void printArray(int arr[]) {-->
-    <!--        int n = arr.length;-->
-    <!--        for (int i = 0; i < n; ++i)-->
-    <!--            System.out.print(arr[i] + " ");-->
-    <!--        System.out.println();-->
-    <!--    }-->
-
-    <!--    public static void main(String args[]) {-->
-    <!--        int arr[] = {1, 29, 43, 23, 543, 56, 32, 323, 654, 0, 4, 2, 56, 21};-->
-
-    <!--        System.out.println("Given Array");-->
-    <!--        printArray(arr);-->
-
-    <!--        MergeSort ob = new MergeSort();-->
-    <!--        ob.sort(arr, 0, arr.length - 1);-->
-
-    <!--        System.out.println("\nSorted array");-->
-    <!--        printArray(arr);-->
-    <!--    }-->
-    <!--}-->
-    <!--            </code>-->
-    <!--        </pre>-->
+    <!--                </code>-->
+    <!--            </pre>-->
+    <!--        </section>-->
+    <!--    <section>-->
+    <!--        <blockquote>-->
+    <!--            <p>-->
+    <!--                Dictum est factum.-->
+    <!--            </p>-->
+    <!--            <cite>Terence</cite>-->
+    <!--        </blockquote>-->
     <!--    </section>-->
-<!--    <section>-->
-<!--        <blockquote>-->
-<!--            <p>-->
-<!--                Dictum est factum.-->
-<!--            </p>-->
-<!--            <cite>Terence</cite>-->
-<!--        </blockquote>-->
-<!--    </section>-->
+    <section class="floatExample">
+        <h1 class="sectionName">Float example</h1>
+        <div class="floatExampleTextBox">
+            <img src="Images/Logos/diceExample.png" class="diceLeftExample" alt="diceExample"/>
+            <img src="Images/Logos/diceExample.png" class="diceRightExample" alt="diceExample"/>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Tristique senectus et netus et malesuada. Nec feugiat in fermentum posuere urna nec
+            tincidunt praesent. Et netus et malesuada fames ac. Enim diam vulputate ut pharetra sit. Tortor consequat id
+            porta nibh venenatis cras sed felis. Fringilla phasellus faucibus scelerisque eleifend donec pretium
+            vulputate sapien. Tempus imperdiet nulla malesuada pellentesque. Augue interdum velit euismod in
+            <div>
+                <div class="leafContainerLeft">
+                    <img src="Images/Logos/leaf.png" class="leafImage" alt="leafImage"/>
+                </div>
+                <div class="leafContainerRight">
+                    <img src="Images/Logos/leaf.png" class="leafImage" alt="leafImage"/>
+                </div>
+            </div>
+            pellentesque. Posuere ac ut consequat semper viverra nam. Non diam phasellus vestibulum lorem sed risus.
+            Nullam non nisi est sit amet facilisis magna etiam tempor. At consectetur lorem donec massa sapien faucibus
+            et molestie. Elementum tempus egestas sed sed risus pretium. Sit amet luctus venenatis lectus magna
+            fringilla urna porttitor. Purus sit amet luctus venenatis lectus. Pellentesque pulvinar pellentesque
+            habitant morbi. Sodales ut etiam sit amet nisl purus in. Consectetur purus ut faucibus pulvinar elementum
+            integer.
+            <img src="Images/Logos/diceExample.png" class="diceLeftExample" alt="diceExample"/>
+            <img src="Images/Logos/diceExample.png" class="diceRightExample" alt="diceExample"/>
+        </div>
+    </section>
 </main>
 
 <footer>
