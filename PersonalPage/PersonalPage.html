@@ -39,16 +39,55 @@
 </header>
 
 <main>
+    <section class="popUpContacts" id="popUp">
+        <button id="buttonCloseContacts" onclick="closeContacts()">CLOSE</button>
+        <nav>
+            <ul id="popUpContacts">
+                <li>
+                    <a class="bottomLink" href="https://www.vk.com/napenshe" target="_blank">
+                        <img src="./Images/Logos/VK_Black&White_Logo_transparent.png" class="logo" alt="vk"/>
+                    </a>
+                </li>
+                <li>
+                    <a class="bottomLink" href="https://www.t.me/napenshe" target="_blank">
+                        <img src="./Images/Logos/Telegram_X_2019_Logo.svg" class="logo" alt="telegram"/>
+                    </a>
+                </li>
+                <li>
+                    <a class="bottomLink" href="https://www.github.com/WildOne2802" target="_blank">
+                        <img src="./Images/Logos/GitHub-Mark-120px-plus.png" class="logo" alt="github"/>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </section>
     <section class="intro">
         <span id="home"></span>
         <div class="personalBox">
-            <img src="./Images/SelfPhoto.jpg" alt="Timur Oshnokov" class="selfImage">
+            <div class="slideshow-container">
+                <img src="./Images/SelfPhoto.jpg" alt="Timur Oshnokov" class="selfImage"/>
+                <img src="./Images/SelfPhoto1.jpg" alt="Timur Oshnokov" class="selfImage"/>
+                <img src="./Images/SelfPhoto2.jpg" alt="Timur Oshnokov" class="selfImage"/>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
             <div class="nameBox">
                 <h1 class="textWhite">Timur Oshnokov</h1>
                 <h3 class="textWhite">Junior Mobile Developer (iOS/Android)</h3>
                 <h5 class="textWhite">Saint-Petersburg, Russia</h5>
                 <br>
                 <h5 class="textWhite">Dictum est factum.<br>-Terence</h5>
+                <br>
+                <button id="buttonOpenContacts" onclick="showContacts()">
+                    CONTACTS
+                </button>
             </div>
         </div>
         <svg class="triangle" viewBox="0 0 200 15">
@@ -471,6 +510,7 @@
 </footer>
 
 <script type="text/javascript" src="../JavaScriptTesting/Lab5.js"></script>
+<script type="text/javascript" src="../JavaScriptTesting/Lab6.js"></script>
 </body>
 
 </html>
