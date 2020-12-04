@@ -1,5 +1,5 @@
 //Check console to see the results
-let n;
+let n = 1000;
 let array = []
 
 function swap(array, firstIndex, secondIndex) {
@@ -7,6 +7,7 @@ function swap(array, firstIndex, secondIndex) {
     array[firstIndex] = array[secondIndex];
     array[secondIndex] = temp;
 }
+//swap in one line
 
 function partition(array, left, right) {
     let pivot = array[Math.floor((right + left) / 2)],
@@ -87,12 +88,14 @@ function fourthTask() {
         else tagsCount[tag.tagName] = 1
     }
 
-    console.log(tagsCount);
+    return tagsCount
 }
+
 
 n = 1234;
 console.log("Array: " + firstTask());
 console.log("Array Stats: " + secondTask());
 console.log("QuickSort: " + thirdTask());
 console.log("Tags Count: ");
-fourthTask();
+console.log(fourthTask());
+
