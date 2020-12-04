@@ -153,7 +153,8 @@
 body {
     flex-direction: column;
     background-color: #FDF3F2;
-    width: 100vw;
+    width: 100%;
+    margin: 0;
 }
 
 .logo {
