@@ -61,6 +61,17 @@
             </ul>
         </nav>
     </section>
+
+    <section class="chatSection" id="chatView">
+        <button id="buttonCloseChat" onclick="closeChat()">CLOSE</button>
+        <b id="chatTitleText">CHAT TIME</b>
+        <div id="chatWindow"></div>
+        <div class="chatBottom">
+            <input id="inputLine"/>
+            <button id="sendButton" onclick="sendMessage()">SEND</button>
+        </div>
+    </section>
+
     <section class="intro">
         <span id="home"></span>
         <div class="personalBox">
@@ -88,6 +99,9 @@
                 <button id="buttonOpenContacts" onclick="showContacts()">
                     CONTACTS
                 </button>
+                <button id="buttonOpenChat" onclick="openChat()">
+                    CHAT
+                </button>
             </div>
         </div>
         <svg class="triangle" viewBox="0 0 200 15">
@@ -104,15 +118,28 @@
 
         <div class="aboutMeSlides">
             <div class="aboutMeSingleSlide">
-                <p class="aboutMeText">Hey there, I am Timmy!<br>IT Developer from Saint-Petersburg, Russia.<br>I am 19
-                    years
-                    old and full of energy to create some amazing projects. </p>
+                <h3 class="aboutMeTitle">Introduction</h3>
+                <div class="aboutMeTextContainer">
+                    <p class="aboutMeText">Hey there, I am <b>Timmy</b>!<br><b>IT Developer from Saint-Petersburg,
+                        Russia.</b><br>I am 19
+                        years
+                        old and full of energy to create some amazing projects. </p>
+                </div>
             </div>
             <div class="aboutMeSingleSlide">
-                <p class="aboutMeText"> If you have got some interesting ideas,<br>text me.</p>
+                <h3 class="aboutMeTitle">Education</h3>
+                <div class="aboutMeTextContainer">
+                    <p class="aboutMeText"> I am 3rd year student in the <b>Faculty of Information Technologies and
+                        Programming</b> at <b>ITMO University</b>, Saint-Petersburg.</p>
+                </div>
             </div>
             <div class="aboutMeSingleSlide">
-                <p class="aboutMeText"> I am into implementing some breathtaking projects. </p>
+                <h3 class="aboutMeTitle">Experience</h3>
+                <div class="aboutMeTextContainer">
+                    <p class="aboutMeText"> I am gaining experience in <b>Sportsoft</b> company now. It specializes on
+                        creating sport related websites. However, I am opening new field of mobile development for them.
+                        Currently, I am a front-end developer of a mobile app for <b>Petrov Hockey Academy</b>.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -449,34 +476,34 @@
     <!--            <cite>Terence</cite>-->
     <!--        </blockquote>-->
     <!--    </section>-->
-    <section class="floatExample">
-        <h1 class="sectionName">Float example</h1>
-        <div class="floatExampleTextBox">
-            <img src="Images/Logos/diceExample.png" class="diceLeftExample" alt="diceExample"/>
-            <img src="Images/Logos/diceExample.png" class="diceRightExample" alt="diceExample"/>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Tristique senectus et netus et malesuada. Nec feugiat in fermentum posuere urna nec
-            tincidunt praesent. Et netus et malesuada fames ac. Enim diam vulputate ut pharetra sit. Tortor consequat id
-            porta nibh venenatis cras sed felis. Fringilla phasellus faucibus scelerisque eleifend donec pretium
-            vulputate sapien. Tempus imperdiet nulla malesuada pellentesque. Augue interdum velit euismod in
-            <div>
-                <div class="leafContainerLeft">
-                    <img src="Images/Logos/leaf.png" class="leafImage" alt="leafImage"/>
-                </div>
-                <div class="leafContainerRight">
-                    <img src="Images/Logos/leaf.png" class="leafImage" alt="leafImage"/>
-                </div>
-            </div>
-            pellentesque. Posuere ac ut consequat semper viverra nam. Non diam phasellus vestibulum lorem sed risus.
-            Nullam non nisi est sit amet facilisis magna etiam tempor. At consectetur lorem donec massa sapien faucibus
-            et molestie. Elementum tempus egestas sed sed risus pretium. Sit amet luctus venenatis lectus magna
-            fringilla urna porttitor. Purus sit amet luctus venenatis lectus. Pellentesque pulvinar pellentesque
-            habitant morbi. Sodales ut etiam sit amet nisl purus in. Consectetur purus ut faucibus pulvinar elementum
-            integer.
-            <img src="Images/Logos/diceExample.png" class="diceLeftExample" alt="diceExample"/>
-            <img src="Images/Logos/diceExample.png" class="diceRightExample" alt="diceExample"/>
-        </div>
-    </section>
+    <!--    <section class="floatExample">-->
+    <!--        <h1 class="sectionName">Float example</h1>-->
+    <!--        <div class="floatExampleTextBox">-->
+    <!--            <img src="Images/Logos/diceExample.png" class="diceLeftExample" alt="diceExample"/>-->
+    <!--            <img src="Images/Logos/diceExample.png" class="diceRightExample" alt="diceExample"/>-->
+    <!--            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et-->
+    <!--            dolore magna aliqua. Tristique senectus et netus et malesuada. Nec feugiat in fermentum posuere urna nec-->
+    <!--            tincidunt praesent. Et netus et malesuada fames ac. Enim diam vulputate ut pharetra sit. Tortor consequat id-->
+    <!--            porta nibh venenatis cras sed felis. Fringilla phasellus faucibus scelerisque eleifend donec pretium-->
+    <!--            vulputate sapien. Tempus imperdiet nulla malesuada pellentesque. Augue interdum velit euismod in-->
+    <!--            <div>-->
+    <!--                <div class="leafContainerLeft">-->
+    <!--                    <img src="Images/Logos/leaf.png" class="leafImage" alt="leafImage"/>-->
+    <!--                </div>-->
+    <!--                <div class="leafContainerRight">-->
+    <!--                    <img src="Images/Logos/leaf.png" class="leafImage" alt="leafImage"/>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--            pellentesque. Posuere ac ut consequat semper viverra nam. Non diam phasellus vestibulum lorem sed risus.-->
+    <!--            Nullam non nisi est sit amet facilisis magna etiam tempor. At consectetur lorem donec massa sapien faucibus-->
+    <!--            et molestie. Elementum tempus egestas sed sed risus pretium. Sit amet luctus venenatis lectus magna-->
+    <!--            fringilla urna porttitor. Purus sit amet luctus venenatis lectus. Pellentesque pulvinar pellentesque-->
+    <!--            habitant morbi. Sodales ut etiam sit amet nisl purus in. Consectetur purus ut faucibus pulvinar elementum-->
+    <!--            integer.-->
+    <!--            <img src="Images/Logos/diceExample.png" class="diceLeftExample" alt="diceExample"/>-->
+    <!--            <img src="Images/Logos/diceExample.png" class="diceRightExample" alt="diceExample"/>-->
+    <!--        </div>-->
+    <!--    </section>-->
 </main>
 
 <footer>
@@ -511,6 +538,7 @@
 
 <script type="text/javascript" src="../JavaScriptTesting/Lab5.js"></script>
 <script type="text/javascript" src="../JavaScriptTesting/Lab6.js"></script>
+<script type="text/javascript" src="../JavaScriptTesting/Lab7.js"></script>
 </body>
 
 </html>

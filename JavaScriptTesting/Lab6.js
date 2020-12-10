@@ -1,9 +1,9 @@
 function showContacts() {
-    document.getElementById("popUp").style.visibility = "visible";
+    document.getElementById("popUp").style.visibility="visible";
 }
 
-function closeContacts() {
-    document.getElementById("popUp").style.visibility = "hidden";
+function closeContacts(){
+    document.getElementById("popUp").style.visibility="hidden";
 }
 
 let imageIndex = 1;
@@ -29,7 +29,6 @@ function showSlides(n) {
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace("active", "");
     }
-    images[imageIndex - 1].style.display = "block";
-    dots[imageIndex - 1].className += " active";
+    images[imageIndex-1].style.display = "block";
+    dots[imageIndex-1].className += " active";
 }
-
