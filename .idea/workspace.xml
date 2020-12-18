@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfd14017-0d39-4582-8090-a2047af18345" name="Default Changelist" comment="Lab 7" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hK9QJkGAZlTvcpwBOuyfexrSSS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/JavaScriptTesting" />
+      <recent name="$PROJECT_DIR$/PersonalPage" />
+      <recent name="$PROJECT_DIR$/PersonalPage/Images/Logos" />
+      <recent name="$PROJECT_DIR$/PersonalPage/Images" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PersonalPage/Images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfd14017-0d39-4582-8090-a2047af18345" name="Default Changelist" comment="" />
+      <created>1599748898899</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599748898899</updated>
+      <workItem from="1599748900918" duration="657000" />
+      <workItem from="1599845298565" duration="2369000" />
+      <workItem from="1600801244768" duration="14739000" />
+      <workItem from="1600849057453" duration="14468000" />
+      <workItem from="1601024432255" duration="5883000" />
+      <workItem from="1602240963399" duration="2610000" />
+      <workItem from="1603455948030" duration="950000" />
+      <workItem from="1604655756643" duration="1967000" />
+      <workItem from="1604676894566" duration="167000" />
+      <workItem from="1605860695131" duration="9671000" />
+      <workItem from="1606228041967" duration="7000" />
+      <workItem from="1606937638202" duration="490000" />
+      <workItem from="1607020609337" duration="30495000" />
+      <workItem from="1607594608578" duration="1912000" />
+      <workItem from="1607622813812" duration="37000" />
+      <workItem from="1608301058178" duration="872000" />
+    </task>
+    <task id="LOCAL-00001" summary="Personal Page">
+      <created>1601024764761</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601024764761</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Personal Page">
+      <created>1601027818507</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601027818508</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Personal Page">
+      <created>1601029387590</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601029387591</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Personal Page">
+      <created>1601029491080</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601029491080</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Personal Page">
+      <created>1601030405051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601030405051</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Personal Page Float Example">
+      <created>1604657687690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604657687690</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Personal Page Float Example">
+      <created>1604658428879</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604658428879</updated>
+    </task>
+    <task id="LOCAL-00008" summary="JavaScript Lab5">
+      <created>1605989498604</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605989498604</updated>
+    </task>
+    <task id="LOCAL-00009" summary="JavaScript Lab6">
+      <created>1607030663518</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607030663518</updated>
+    </task>
+    <task id="LOCAL-00010" summary="JavaScript Lab6">
+      <created>1607072340607</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607072340607</updated>
+    </task>
+    <task id="LOCAL-00011" summary="JavaScript Lab6">
+      <created>1607072437825</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607072437825</updated>
+    </task>
+    <task id="LOCAL-00012" summary="JavaScript Lab6">
+      <created>1607088736195</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607088736195</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Lab 7">
+      <created>1607622834630</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607622834630</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Lab 7">
+      <created>1608301112759</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608301112759</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Personal Page" />
+    <MESSAGE value="Personal Page Float Example" />
+    <MESSAGE value="JavaScript Lab5" />
+    <MESSAGE value="JavaScript Lab6" />
+    <MESSAGE value="Lab 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 7" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="354" y="124" key="#Inspections" timestamp="1605986605770">
+      <screen x="0" y="23" width="1440" height="833" />
+    </state>
+    <state x="354" y="124" key="#Inspections/0.23.1440.833@0.23.1440.833" timestamp="1605986605770" />
+    <state x="502" y="235" key="#Web_Browsers" timestamp="1599845538800">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="502" y="235" key="#Web_Browsers/0.0.1440.900@0.0.1440.900" timestamp="1599845538800" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607196885972">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1607196885972" />
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600856517618">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1600856517618" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1603465553332">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603465553332" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1608301118421">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1608301118421" />
+    <state x="320" y="199" key="Vcs.Push.Dialog.v2/0.23.1440.833@0.23.1440.833" timestamp="1605989502221" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607196269215">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1607196269215" />
+    <state x="385" y="204" width="670" height="626" key="search.everywhere.popup/0.23.1440.833@0.23.1440.833" timestamp="1605975360804" />
+  </component>
+</project>
